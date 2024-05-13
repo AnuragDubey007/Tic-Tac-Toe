@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+        <p class="Winner-Btn"></p>
+        <p class="new-Btn">New Game</p>
+    </div>
+    <main>
+ <div class="container">
+    
+    <h1 class="title"><span class="t">T</span><span class="i">i</span><span class="c">c</span>&nbsp;<span class="t">T</span><span class="a">a</span><span class="c">c</span>&nbsp;<span class="t">T</span><span class="o">o</span><span class="e">e</span>&nbsp;<span class="g">G</span><span class="a">a</span><span class="m">m</span><span class="e">e</span></h1>
+
+       <div class="board">
+        <div class="row1">
+           <div class="boxes"></div>
+           <div class="boxes"></div>
+           <div class="boxes"></div>
+        </div>
+                <div class="row2">
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                </div>
+                         <div class="row3">
+                                <div class="boxes"></div>
+                                <div class="boxes"></div>
+                                <div class="boxes"></div>
+                            </div>
+       </div>
+       <div class="last-container">
+        <div class="chance">
+            <div>
+                <div class="chance1">Select First<div class="chance2">Chance</div></div>
+            </div>
+            <div class="sbox">
+                <div id="cross_box" class="smallbox"><img class="img1" src="cross.png"></div>
+                <div id="zero_box" class="smallbox"><img class="img2" src="circle.png"></div>
+            </div>
+        </div>
+        <div class="reset">Reset</div>
+    </div>
+    
+       
+ </div>
+
+    </main>
+    <script src="confetti.js"></script>
+    <canvas id="confetti-canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
